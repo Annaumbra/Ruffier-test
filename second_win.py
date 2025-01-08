@@ -7,9 +7,9 @@ from PyQt5.QtWidgets import (
 
 
 from instr import *
-# from second_win import *
+# from final_win import *
 
-class MainWin(QWidget):
+class TestWin(QWidget):
        def __init__(self):
               super().__init__()
        def initUI(self):
@@ -21,5 +21,5 @@ class MainWin(QWidget):
        def set_appear(self):
               pass
 app = QApplication([])
-mw = MainWin()
+tw = TestWin()
 app.exec_()

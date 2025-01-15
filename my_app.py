@@ -25,7 +25,7 @@ class MainWin(QWidget):
 
         self.layout_line = QVBoxLayout()
         self.layout_line.addWidget(self.hello_text, alignment=Qt.AlignLeft)
-        self.layout_line.addWidget(self.insrtruction, alignment=Qt.AlignLeft)
+        self.layout_line.addWidget(self.instruction, alignment=Qt.AlignLeft)
         self.layout_line.addWidget(self.btn_next, alignment=Qt.AlignCenter)
         self.setLayout(self.layout_line)
 

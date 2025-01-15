@@ -9,8 +9,9 @@ from instr import *
 
 
 class FinalWin(QWidget):
-    def __init__(self):
+    def __init__(self, exp):
         super().__init__()
+        self.exp = exp
         self.initUI()
         self.set_appear()
         self.show()
@@ -29,7 +30,3 @@ class FinalWin(QWidget):
         self.resize(win_width, win_height)
         self.move(win_x, win_y)
 
-
-app = QApplication([])
-fw = FinalWin()
-app.exec_()

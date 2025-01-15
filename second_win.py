@@ -148,6 +148,10 @@ class TestWin(QWidget):
     def connects(self):
         self.btn_next.clicked.connect(self.next_click)
 
+        self.btn_test1.clicked.connect(self.timer_test)
+        self.btn_test2.clicked.connect(self.timer_sits)
+        self.btn_test3.clicked.connect(self.timer_final)
+
     ''' sets what the window will look like (label, size, location) '''
 
     def set_appear(self):
